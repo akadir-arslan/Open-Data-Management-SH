@@ -1,0 +1,87 @@
+[
+  {
+    "PoliceStation": "https://zufish.schleswig-holstein.de/portaldeeplink?tsa_oe_id=9092998",
+    "Name": "Kriminalpolizeistelle Bad Schwartau",
+    "Locality": "Bad Schwartau"
+  },
+  {
+    "PoliceStation": "https://zufish.schleswig-holstein.de/portaldeeplink?tsa_oe_id=9093028",
+    "Name": "Kriminalpolizeistelle Eckernf\u00f6rde",
+    "Locality": "Eckernf\u00f6rde"
+  },
+  {
+    "PoliceStation": "https://zufish.schleswig-holstein.de/portaldeeplink?tsa_oe_id=9093041",
+    "Name": "Kriminalpolizeistelle Elmshorn",
+    "Locality": "Elmshorn"
+  },
+  {
+    "PoliceStation": "https://zufish.schleswig-holstein.de/portaldeeplink?tsa_oe_id=9093056",
+    "Name": "Kriminalpolizeistelle Geesthacht",
+    "Locality": "Geesthacht"
+  },
+  {
+    "PoliceStation": "https://zufish.schleswig-holstein.de/portaldeeplink?tsa_oe_id=9093069",
+    "Name": "Kriminalpolizeistelle Nieb\u00fcll",
+    "Locality": "Nieb\u00fcll"
+  },
+  {
+    "PoliceStation": "https://zufish.schleswig-holstein.de/portaldeeplink?tsa_oe_id=9093082",
+    "Name": "Kriminalpolizeistelle Norderstedt",
+    "Locality": "Norderstedt"
+  },
+  {
+    "PoliceStation": "https://zufish.schleswig-holstein.de/portaldeeplink?tsa_oe_id=9093097",
+    "Name": "Kriminalpolizeistelle Oldenburg",
+    "Locality": "Oldenburg in Holstein"
+  },
+  {
+    "PoliceStation": "https://zufish.schleswig-holstein.de/portaldeeplink?tsa_oe_id=9093112",
+    "Name": "Kriminalpolizeistelle Sylt",
+    "Locality": "Sylt"
+  },
+  {
+    "PoliceStation": "https://zufish.schleswig-holstein.de/portaldeeplink?tsa_oe_id=9093153",
+    "Name": "Kriminalpolizeistelle Eutin",
+    "Locality": "Eutin"
+  },
+  {
+    "PoliceStation": "https://zufish.schleswig-holstein.de/portaldeeplink?tsa_oe_id=9093181",
+    "Name": "Kriminalpolizeistelle Heide",
+    "Locality": "Heide"
+  },
+  {
+    "PoliceStation": "https://zufish.schleswig-holstein.de/portaldeeplink?tsa_oe_id=9093196",
+    "Name": "Kriminalpolizeistelle Husum",
+    "Locality": "Husum"
+  },
+  {
+    "PoliceStation": "https://zufish.schleswig-holstein.de/portaldeeplink?tsa_oe_id=9093224",
+    "Name": "Kriminalpolizeistelle Kiel",
+    "Locality": "Kiel"
+  },
+  {
+    "PoliceStation": "https://zufish.schleswig-holstein.de/portaldeeplink?tsa_oe_id=9093237",
+    "Name": "Kriminalpolizeistelle L\u00fcbeck",
+    "Locality": "L\u00fcbeck, Hansestadt"
+  },
+  {
+    "PoliceStation": "https://zufish.schleswig-holstein.de/portaldeeplink?tsa_oe_id=9093280",
+    "Name": "Kriminalpolizeistellestelle Pl\u00f6n",
+    "Locality": "Pl\u00f6n"
+  },
+  {
+    "PoliceStation": "https://zufish.schleswig-holstein.de/portaldeeplink?tsa_oe_id=9093293",
+    "Name": "Kriminalpolizeistelle Ratzeburg",
+    "Locality": "Ratzeburg"
+  },
+  {
+    "PoliceStation": "https://zufish.schleswig-holstein.de/portaldeeplink?tsa_oe_id=9093306",
+    "Name": "Kriminalpolizeistelle Rendsburg",
+    "Locality": "Rendsburg"
+  },
+  {
+    "PoliceStation": "https://zufish.schleswig-holstein.de/portaldeeplink?tsa_oe_id=9093319",
+    "Name": "Kriminalpolizeistelle Schleswig",
+    "Locality": "Schleswig"
+  }
+]

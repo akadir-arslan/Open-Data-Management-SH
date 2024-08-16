@@ -1,0 +1,2246 @@
+[
+  {
+    "author": null,
+    "author_email": null,
+    "creator_user_id": "3d0ba916-bc51-4bb7-a011-f2c5b35b1175",
+    "id": "1afa7e98-902d-40eb-ab09-9e636371abcc",
+    "isopen": true,
+    "license_id": "http://dcat-ap.de/def/licenses/cc-zero",
+    "license_title": "Creative Commons CC Zero License (cc-zero)",
+    "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2023-07-24T12:49:22.036871",
+    "metadata_modified": "2023-12-06T10:40:07.399972",
+    "name": "digitale-personenzahlung-in-der-landeshauptstadt-kiel-odala",
+    "notes": "**Allgemein**\r\n\r\nIn diesem Datensatz werden unterschiedliche Werte zur digitalen Personenz\u00e4hlung bereitgestellt. Die Sensoren Messen Verbindungen mit WLAN und Bluetooth Low Energy (BLE) in der N\u00e4he. Die Daten werden DSGVO-konform auf dem Ger\u00e4t erfasst und verarbeitet. Es werden lediglich die aggregierten und anonymisierten Verbindungen als Daten bereitgestellt.\r\n\r\nDie Daten werden im Rahmen des [ODALA-F\u00f6rderprojektes](https://odalaproject.eu/) bereitgestellt.\r\n\r\n**Datenmodell**\r\n\r\nDie Daten k\u00f6nnen unterschiedliche Sensortypen und -hersteller umfassen. Um die Daten zu harmonisieren, werden diese in ein einheitliches Datenmodell zusammengefasst. Nicht jeder Sensor misst alle angegebenen Werte. Die Daten sind im Datenmodell \"CrowdFlowObserved\" bereitgestellt.\r\n\r\nhttps://gitlab.com/hopu-smart-cities/fiware/datamodels/-/blob/master/crowd-flow/datamodel-ngsi-ld.json\r\n\r\nDieses baut auf dem Smart Data Model \"CriowdFlowObserved\" auf:\r\n\r\nhttps://github.com/smart-data-models/dataModel.Transportation/blob/master/CrowdFlowObserved/doc/spec.md\r\n\r\n **Gemessene und berechnete Werte**\r\n\r\n* peopleCountLowerRange (Durchschnitt 1 Minute)\r\n* peopleCountMediumRange (Durchschnitt 5 Minuten)\r\n* peopleCountHighRange (Durchschnitt 10 Minuten)",
+    "num_resources": 3,
+    "num_tags": 2,
+    "organization": {
+      "id": "landeshauptstadt-kiel",
+      "name": "landeshauptstadt-kiel",
+      "title": "Landeshauptstadt Kiel",
+      "type": "organization",
+      "description": "Die Stadt Kiel ist die n\u00f6rdlichste Gro\u00dfstadt Deutschlands und die Landeshauptstadt Schleswig-Holsteins. Als kreisfreie Stadt erledigt sie neben den kommunalen Selbstverwaltungsaufgaben auch Aufgaben einer unteren staatlichen Verwaltungsbeh\u00f6rde und erzeugt, erhebt und verarbeitet als Gebietsk\u00f6rperschaft eine Vielzahl von Daten mit lokalem Bezug.",
+      "image_url": "https://www.kiel.de/images/logo-kiel-sailing-city.svg",
+      "created": "2020-01-23T12:45:40.761397",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "landeshauptstadt-kiel",
+    "private": false,
+    "state": "active",
+    "title": "Digitale Personenz\u00e4hlung in der Landeshauptstadt Kiel (ODALA)",
+    "type": "dataset",
+    "url": null,
+    "version": null,
+    "extras": [
+      {
+        "key": "issued",
+        "value": "2023-05-30T00:00:00"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": ""
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[10.0327, 54.2508], [10.0327, 54.4314], [10.2186, 54.4314], [10.2186, 54.2508], [10.0327, 54.2508]]]}"
+      },
+      {
+        "key": "temporal_end",
+        "value": "2023-10-26T00:00:00"
+      },
+      {
+        "key": "temporal_start",
+        "value": "2023-07-26T00:00:00"
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Verkehr",
+        "id": "tran",
+        "image_display_url": "",
+        "name": "tran",
+        "title": "Verkehr"
+      }
+    ],
+    "resources": [
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": "https://opendata.schleswig-holstein.de/dataset/1afa7e98-902d-40eb-ab09-9e636371abcc/resource/c8c6dbdb-3995-4d94-8f21-33590a4f7c50/download/odala_crowdflowobserved_city_of_kiel_latest.json",
+          "cache_filepath": "/var/lib/ckan/default/ckan_storage/resources/c8c/6db/db-3995-4d94-8f21-33590a4f7c50",
+          "cache_url": "https://opendata.schleswig-holstein.de/dataset/1afa7e98-902d-40eb-ab09-9e636371abcc/resource/c8c6dbdb-3995-4d94-8f21-33590a4f7c50/download/odala_crowdflowobserved_city_of_kiel_latest.json",
+          "size": 2080,
+          "mimetype": "application/json",
+          "hash": "dc6b8833165961894899dca61afad62059cc3d67",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-06T11:40:10.108721",
+          "failure_count": 0,
+          "created": "2023-07-24T14:49:49.102435",
+          "updated": "2023-12-06T11:40:10.108721",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-07-24T12:49:48.612284",
+        "description": null,
+        "format": "JSON_LD",
+        "hash": "7d885a928b881d9123a373a53ef80c97",
+        "hash_algorithm": "http://dcat-ap.de/def/hashAlgorithms/md/5",
+        "id": "c8c6dbdb-3995-4d94-8f21-33590a4f7c50",
+        "last_modified": "2023-12-06T10:40:07.389695",
+        "metadata_modified": "2023-12-06T10:40:07.403561",
+        "mimetype": "application/json",
+        "mimetype_inner": null,
+        "name": "Zuletzt gemessene Werte digitaler Personenz\u00e4hlung in der Landeshauptstadt Kiel (ODALA; Sensorik) - Datei",
+        "package_id": "1afa7e98-902d-40eb-ab09-9e636371abcc",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-06T11:40:10.108721",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"JSON\" which receives openness score: 3.",
+          "format": "JSON",
+          "created": "2023-07-24T14:49:49.877678",
+          "updated": "2023-12-06T11:40:10.808781"
+        },
+        "resource_type": null,
+        "size": 2080,
+        "state": "active",
+        "url": "https://opendata.schleswig-holstein.de/dataset/1afa7e98-902d-40eb-ab09-9e636371abcc/resource/c8c6dbdb-3995-4d94-8f21-33590a4f7c50/download/odala_crowdflowobserved_city_of_kiel_latest.json",
+        "url_type": "upload"
+      },
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": "https://opendata.schleswig-holstein.de/dataset/1afa7e98-902d-40eb-ab09-9e636371abcc/resource/d8394bf8-2ad2-447c-bf74-403bb0b543f9/download/odala_crowdflowobserved_historic_data.csv",
+          "cache_filepath": "/var/lib/ckan/default/ckan_storage/resources/d83/94b/f8-2ad2-447c-bf74-403bb0b543f9",
+          "cache_url": "https://opendata.schleswig-holstein.de/dataset/1afa7e98-902d-40eb-ab09-9e636371abcc/resource/d8394bf8-2ad2-447c-bf74-403bb0b543f9/download/odala_crowdflowobserved_historic_data.csv",
+          "size": 1864268,
+          "mimetype": "text/csv",
+          "hash": "b5697b34cf1b549c60ed86763326f56c3879674a",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-06T11:40:10.122168",
+          "failure_count": 0,
+          "created": "2023-07-31T13:59:38.653340",
+          "updated": "2023-12-06T11:40:10.122168",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-07-31T11:59:38.017957",
+        "description": null,
+        "format": "CSV",
+        "hash": "882c941de423b51bffc0c2bed62ffb6b",
+        "hash_algorithm": "http://dcat-ap.de/def/hashAlgorithms/md/5",
+        "id": "d8394bf8-2ad2-447c-bf74-403bb0b543f9",
+        "last_modified": "2023-10-26T08:01:04.670518",
+        "metadata_modified": "2023-12-06T10:40:07.403679",
+        "mimetype": "text/csv",
+        "mimetype_inner": null,
+        "name": "Historische digitale Personenz\u00e4hlung in der Landeshauptstadt Kiel (ODALA; Sensorik)",
+        "package_id": "1afa7e98-902d-40eb-ab09-9e636371abcc",
+        "position": 1,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-06T11:40:10.122168",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"CSV\" which receives openness score: 3.",
+          "format": "CSV",
+          "created": "2023-07-31T13:59:39.147052",
+          "updated": "2023-12-06T11:40:10.831637"
+        },
+        "resource_type": null,
+        "size": 1864268,
+        "state": "active",
+        "url": "https://opendata.schleswig-holstein.de/dataset/1afa7e98-902d-40eb-ab09-9e636371abcc/resource/d8394bf8-2ad2-447c-bf74-403bb0b543f9/download/odala_crowdflowobserved_historic_data.csv",
+        "url_type": "upload"
+      },
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": null,
+          "cache_filepath": "/var/lib/ckan/default/archive/46/46725749-3cd6-43ac-9845-701d0fb05f6f/crowdflowobserved",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/46/46725749-3cd6-43ac-9845-701d0fb05f6f/crowdflowobserved",
+          "size": 2244,
+          "mimetype": "application/ld+json",
+          "hash": "87120c2859b56cd6a2cd7d4804f90e211b67a095",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-06T11:40:10.337513",
+          "failure_count": 0,
+          "created": "2023-09-08T10:52:46.843670",
+          "updated": "2023-12-06T11:40:10.337513",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-09-08T08:52:43.444868",
+        "description": null,
+        "format": "JSON_LD",
+        "hash": "",
+        "id": "46725749-3cd6-43ac-9845-701d0fb05f6f",
+        "last_modified": null,
+        "metadata_modified": "2023-12-06T10:40:07.403764",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Letzte Publikumsstrommessung (ODALA; Sensoren) - API",
+        "package_id": "1afa7e98-902d-40eb-ab09-9e636371abcc",
+        "position": 2,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-06T11:40:10.337513",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"JSON\" which receives openness score: 3.",
+          "format": "JSON",
+          "created": "2023-09-08T10:52:44.607976",
+          "updated": "2023-12-06T11:40:10.835395"
+        },
+        "resource_type": null,
+        "size": null,
+        "state": "active",
+        "url": "https://scorpio-apisix.staging.odala.kiel.de/crowdflowobserved",
+        "url_type": null
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "Individualverkehr",
+        "id": "53a33a99-d7bc-460b-8b7c-a39706ad894b",
+        "name": "Individualverkehr",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Messstellen",
+        "id": "8407b1bd-5667-4f21-b1a6-3f8ed0b5d3da",
+        "name": "Messstellen",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  },
+  {
+    "author": null,
+    "author_email": null,
+    "creator_user_id": "3d0ba916-bc51-4bb7-a011-f2c5b35b1175",
+    "id": "003a5a77-0fbb-4792-9094-060837f397af",
+    "isopen": true,
+    "license_id": "http://dcat-ap.de/def/licenses/cc-zero",
+    "license_title": "Creative Commons CC Zero License (cc-zero)",
+    "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2023-07-24T08:41:50.888314",
+    "metadata_modified": "2023-12-06T10:40:04.331622",
+    "name": "larmmessung-in-der-landeshauptstadt-kiel",
+    "notes": "**Allgemein**\r\nIn diesem Datensatz werden unterschiedliche Stra\u00dfenl\u00e4rmwerte bereitgestellt.\r\n\r\nDie Daten werden im Rahmen des [ODALA-F\u00f6rderprojektes](https://odalaproject.eu/) bereitgestellt.\r\n\r\n**Datenmodell**\r\nDie Daten k\u00f6nnen unterschiedliche Sensortypen und -hersteller umfassen. Um die Daten zu harmonisieren, werden diese in ein einheitliches Datenmodell zusammengefasst. Nicht jeder Sensor misst alle angegebenen Werte. Die Daten sind im Datenmodell \"NoiseLevelObserved\" bereitgestellt.\r\n\r\nhttps://gitlab.com/hopu-smart-cities/fiware/datamodels/-/blob/master/noise/datamodel-ngsi-ld.json\r\n\r\nDieses baut auf dem Smart Data Model \"NoiseLevelObserved\" auf:\r\n\r\nhttps://github.com/smart-data-models/dataModel.Environment/blob/master/NoiseLevelObserved/doc/spec.md\r\n\r\n **Gemessene und berechnete Werte**\r\n\r\n* LA1 (Schallpegel welcher in 1% der Messzeit \u00fcberschritten wurde - statistisch berechnet)\r\n* LA10 (Schallpegel welcher in 10% der Messzeit \u00fcberschritten wurde - statistisch berechnet)\r\n* LA50 (Schallpegel welcher in 50% der Messzeit \u00fcberschritten wurde - statistisch berechnet)\r\n* LA90 (Schallpegel welcher in 90% der Messzeit \u00fcberschritten wurde - statistisch berechnet)\r\n* LA99 (Schallpegel welcher in 99% der Messzeit \u00fcberschritten wurde - statistisch berechnet)\r\n* LAeq (\u00e4quivalenter Dauerschallpegel)\r\n* LAmax (maximal gemessener Pegel)\r\n* LAmin (minimal gemessener Pegel)",
+    "num_resources": 3,
+    "num_tags": 4,
+    "organization": {
+      "id": "landeshauptstadt-kiel",
+      "name": "landeshauptstadt-kiel",
+      "title": "Landeshauptstadt Kiel",
+      "type": "organization",
+      "description": "Die Stadt Kiel ist die n\u00f6rdlichste Gro\u00dfstadt Deutschlands und die Landeshauptstadt Schleswig-Holsteins. Als kreisfreie Stadt erledigt sie neben den kommunalen Selbstverwaltungsaufgaben auch Aufgaben einer unteren staatlichen Verwaltungsbeh\u00f6rde und erzeugt, erhebt und verarbeitet als Gebietsk\u00f6rperschaft eine Vielzahl von Daten mit lokalem Bezug.",
+      "image_url": "https://www.kiel.de/images/logo-kiel-sailing-city.svg",
+      "created": "2020-01-23T12:45:40.761397",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "landeshauptstadt-kiel",
+    "private": false,
+    "state": "active",
+    "title": "L\u00e4rmmessung in der Landeshauptstadt Kiel (ODALA)",
+    "type": "dataset",
+    "url": null,
+    "version": null,
+    "extras": [
+      {
+        "key": "issued",
+        "value": "2023-05-30T00:00:00"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": ""
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[10.0327, 54.2508], [10.0327, 54.4314], [10.2186, 54.4314], [10.2186, 54.2508], [10.0327, 54.2508]]]}"
+      },
+      {
+        "key": "temporal_end",
+        "value": "2023-11-17T00:00:00"
+      },
+      {
+        "key": "temporal_start",
+        "value": "2023-07-26T00:00:00"
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Umwelt",
+        "id": "envi",
+        "image_display_url": "",
+        "name": "envi",
+        "title": "Umwelt"
+      }
+    ],
+    "resources": [
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": "https://opendata.schleswig-holstein.de/dataset/003a5a77-0fbb-4792-9094-060837f397af/resource/1fb6778f-fe1b-4f55-aa53-6a3ba5b03e11/download/odala_noiselevelobserved_city_of_kiel_latest.json",
+          "cache_filepath": "/var/lib/ckan/default/ckan_storage/resources/1fb/677/8f-fe1b-4f55-aa53-6a3ba5b03e11",
+          "cache_url": "https://opendata.schleswig-holstein.de/dataset/003a5a77-0fbb-4792-9094-060837f397af/resource/1fb6778f-fe1b-4f55-aa53-6a3ba5b03e11/download/odala_noiselevelobserved_city_of_kiel_latest.json",
+          "size": 2829,
+          "mimetype": "application/json",
+          "hash": "9d44e7d5be6675c630ad9be0890081bf45f7b776",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-06T11:40:06.846093",
+          "failure_count": 0,
+          "created": "2023-07-24T10:44:17.543288",
+          "updated": "2023-12-06T11:40:06.846093",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-07-24T08:44:17.028483",
+        "description": null,
+        "format": "JSON_LD",
+        "hash": "a761f7d5822b80b60b1ebc63a6221eb8",
+        "hash_algorithm": "http://dcat-ap.de/def/hashAlgorithms/md/5",
+        "id": "1fb6778f-fe1b-4f55-aa53-6a3ba5b03e11",
+        "last_modified": "2023-12-06T10:40:04.320785",
+        "metadata_modified": "2023-12-06T10:40:04.334845",
+        "mimetype": "application/json",
+        "mimetype_inner": null,
+        "name": "Zuletzt gemessene L\u00e4rmmessung in der Landeshauptstadt Kiel (ODALA; Sensorik) - Datei",
+        "package_id": "003a5a77-0fbb-4792-9094-060837f397af",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-06T11:40:06.846093",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"JSON\" which receives openness score: 3.",
+          "format": "JSON",
+          "created": "2023-07-24T10:44:18.176133",
+          "updated": "2023-12-06T11:40:07.652630"
+        },
+        "resource_type": null,
+        "size": 2829,
+        "state": "active",
+        "url": "https://opendata.schleswig-holstein.de/dataset/003a5a77-0fbb-4792-9094-060837f397af/resource/1fb6778f-fe1b-4f55-aa53-6a3ba5b03e11/download/odala_noiselevelobserved_city_of_kiel_latest.json",
+        "url_type": "upload"
+      },
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": "https://opendata.schleswig-holstein.de/dataset/003a5a77-0fbb-4792-9094-060837f397af/resource/d673602e-84f5-4f66-968d-cc11d9fe0a49/download/odala_noiselevelobserved_historic_data.csv",
+          "cache_filepath": "/var/lib/ckan/default/ckan_storage/resources/d67/360/2e-84f5-4f66-968d-cc11d9fe0a49",
+          "cache_url": "https://opendata.schleswig-holstein.de/dataset/003a5a77-0fbb-4792-9094-060837f397af/resource/d673602e-84f5-4f66-968d-cc11d9fe0a49/download/odala_noiselevelobserved_historic_data.csv",
+          "size": 3727640,
+          "mimetype": "text/csv",
+          "hash": "c7fd2bd138ac127db43cb515a83462eb7d074b92",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-06T11:40:06.861716",
+          "failure_count": 0,
+          "created": "2023-07-26T17:48:20.759066",
+          "updated": "2023-12-06T11:40:06.861716",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-07-26T15:48:20.174842",
+        "description": null,
+        "format": "CSV",
+        "hash": "9cffd6a5dbf56e71a9e6cbf0968dbfd2",
+        "hash_algorithm": "http://dcat-ap.de/def/hashAlgorithms/md/5",
+        "id": "d673602e-84f5-4f66-968d-cc11d9fe0a49",
+        "last_modified": "2023-11-17T15:20:07.327503",
+        "metadata_modified": "2023-12-06T10:40:04.334940",
+        "mimetype": "text/csv",
+        "mimetype_inner": null,
+        "name": "Historische L\u00e4rmmessungen in der Landeshauptstadt Kiel (ODALA; Sensorik)",
+        "package_id": "003a5a77-0fbb-4792-9094-060837f397af",
+        "position": 1,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-06T11:40:06.861716",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"CSV\" which receives openness score: 3.",
+          "format": "CSV",
+          "created": "2023-07-26T17:48:21.297573",
+          "updated": "2023-12-06T11:40:07.687173"
+        },
+        "resource_type": null,
+        "size": 3727640,
+        "state": "active",
+        "url": "https://opendata.schleswig-holstein.de/dataset/003a5a77-0fbb-4792-9094-060837f397af/resource/d673602e-84f5-4f66-968d-cc11d9fe0a49/download/odala_noiselevelobserved_historic_data.csv",
+        "url_type": "upload"
+      },
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": null,
+          "cache_filepath": "/var/lib/ckan/default/archive/46/466a2caf-1587-4ee0-803d-0d55e17abe03/noiselevelobserved",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/46/466a2caf-1587-4ee0-803d-0d55e17abe03/noiselevelobserved",
+          "size": 2993,
+          "mimetype": "application/ld+json",
+          "hash": "e2cbad495abea20c74652134852cf6ff43990c2c",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-06T11:40:07.085205",
+          "failure_count": 0,
+          "created": "2023-09-08T10:47:21.449288",
+          "updated": "2023-12-06T11:40:07.085205",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-09-08T08:47:20.007289",
+        "description": null,
+        "format": "JSON_LD",
+        "hash": "",
+        "id": "466a2caf-1587-4ee0-803d-0d55e17abe03",
+        "last_modified": null,
+        "metadata_modified": "2023-12-06T10:40:04.335012",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Zuletzt gemessene L\u00e4rmmessung in der Landeshauptstadt Kiel (ODALA; Sensorik) - API",
+        "package_id": "003a5a77-0fbb-4792-9094-060837f397af",
+        "position": 2,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-06T11:40:07.085205",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"JSON\" which receives openness score: 3.",
+          "format": "JSON",
+          "created": "2023-09-08T10:47:21.021332",
+          "updated": "2023-12-06T11:40:07.697750"
+        },
+        "resource_type": null,
+        "size": null,
+        "state": "active",
+        "url": "https://scorpio-apisix.staging.odala.kiel.de/noiselevelobserved",
+        "url_type": null
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "Individualverkehr",
+        "id": "53a33a99-d7bc-460b-8b7c-a39706ad894b",
+        "name": "Individualverkehr",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "L\u00e4rm",
+        "id": "b9f88a7a-78e8-4f1e-a81d-97fb7f5d1cf5",
+        "name": "L\u00e4rm",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Messstellen",
+        "id": "8407b1bd-5667-4f21-b1a6-3f8ed0b5d3da",
+        "name": "Messstellen",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Umwelt",
+        "id": "2a6e73f7-5d59-4f2b-9118-aa780366e5f7",
+        "name": "Umwelt",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  },
+  {
+    "author": "Statistisches Amt f\u00fcr Hamburg und Schleswig-Holstein",
+    "author_email": "info@statistik-nord.de",
+    "creator_user_id": "365772f8-13ae-4838-8459-d5e9ce7269f2",
+    "id": "StaNord_CMS:65323",
+    "isopen": true,
+    "license_id": "http://dcat-ap.de/def/licenses/dl-by-de/2.0",
+    "license_title": "Datenlizenz Deutschland Namensnennung 2.0",
+    "license_url": "https://www.govdata.de/dl-de/by-2-0",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2023-12-06T07:01:28.224368",
+    "metadata_modified": "2023-12-06T07:01:28.224372",
+    "name": "ernteberichterstattung-uber-feldfruchte-und-grunland-in-schleswig-holstein143",
+    "notes": "Ernteberichterstattung \u00fcber Feldfr\u00fcchte und Gr\u00fcnland in Schleswig-Holstein - - Vorl\u00e4ufige Ergebnisse -\r\nOktober 2023",
+    "num_resources": 2,
+    "num_tags": 2,
+    "organization": {
+      "id": "statistikamt-nord",
+      "name": "statistikamt-nord",
+      "title": "Statistisches Amt f\u00fcr Hamburg und Schleswig-Holstein A.\u00f6.R. (Statistikamt Nord)",
+      "type": "organization",
+      "description": "Das Statistische Amt f\u00fcr Hamburg und Schleswig-Holstein \u2013 das Statistikamt Nord \u2013 erhebt und ver\u00f6ffentlicht als Teil der amtlichen Statistik in Deutschland statistische Informationen zu allen gesellschaftlichen Themen f\u00fcr die Bundesl\u00e4nder Hamburg und Schleswig-Holstein. Als Anstalt des \u00f6ffentlichen Rechts f\u00fchrt es alle durch Bundes- und EU- Gesetze angeordneten Statistiken im Auftrag der Tr\u00e4gerl\u00e4nder Hamburg und Schleswig-Holstein f\u00fcr die beiden Bundesl\u00e4nder durch, bereitet die Daten auf und interpretiert die Ergebnisse. Die objektiv und unabh\u00e4ngig erstellten Statistiken werden Verwaltung, Politik, Medien sowie B\u00fcrgerinnen und B\u00fcrgern gleicherma\u00dfen zug\u00e4nglich gemacht. Dar\u00fcber hinaus bietet das Amt Dienstleistungen im Bereich Datenerhebung, -aufbereitung und -analyse nach individuellem Kundenwunsch an. Das Statistikamt Nord ist hervorgegangen aus den vormaligen Statistischen Landes\u00e4mtern Hamburg und Schleswig-Holstein. Seit 2004 firmiert es als l\u00e4nder\u00fcbergreifende Anstalt an den Standorten Hamburg und Kiel.",
+      "image_url": "https://www.statistik-nord.de/static/img/logo-text.svg",
+      "created": "2020-01-23T12:45:40.921925",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "statistikamt-nord",
+    "private": false,
+    "state": "active",
+    "title": "Ernteberichterstattung \u00fcber Feldfr\u00fcchte und Gr\u00fcnland in Schleswig-Holstein",
+    "type": "dataset",
+    "url": "http://www.statistik-nord.de",
+    "version": null,
+    "extras": [
+      {
+        "key": "issued",
+        "value": "2023-12-05T00:00:00"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": "Statistisches Amt f\u00fcr Hamburg und Schleswig-Holstein - Anstalt des \u00f6ffentlichen Rechts - (Statistikamt Nord)"
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[7.869, 53.36], [7.869, 55.0583], [11.3126, 55.0583], [11.3126, 53.36], [7.869, 53.36]]]}"
+      },
+      {
+        "key": "spatial_text",
+        "value": "Bundesland Schleswig-Holstein"
+      },
+      {
+        "key": "spatial_uri",
+        "value": "http://dcat-ap.de/def/politicalGeocoding/stateKey/01"
+      },
+      {
+        "key": "temporal_end",
+        "value": "2023-10-31T00:00:00"
+      },
+      {
+        "key": "temporal_start",
+        "value": "2023-10-01T00:00:00"
+      },
+      {
+        "key": "harvest_object_id",
+        "value": "32121acd-cba5-4fc5-863a-46e412c1e93a"
+      },
+      {
+        "key": "harvest_source_id",
+        "value": "169986ba-2493-4b42-9258-c17a58970fbb"
+      },
+      {
+        "key": "harvest_source_title",
+        "value": "Statistikamt Nord \u23f2"
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+        "id": "agri",
+        "image_display_url": "",
+        "name": "agri",
+        "title": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel"
+      }
+    ],
+    "resources": [
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": null,
+          "cache_filepath": "/var/lib/ckan/default/archive/3a/3ac10241-bf20-44b5-81a6-179eaeeb44b6/C_II_1_m2310_SH.xlsx",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/3a/3ac10241-bf20-44b5-81a6-179eaeeb44b6/C_II_1_m2310_SH.xlsx",
+          "size": 145243,
+          "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "hash": "9a1d06b0ce6929c5ef7a7b708896bbca1d268724",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-06T08:01:35.953083",
+          "failure_count": 0,
+          "created": "2023-12-06T08:01:31.552447",
+          "updated": "2023-12-06T08:01:35.953083",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-12-06T07:01:28.241232",
+        "description": null,
+        "format": "XLSX",
+        "hash": "",
+        "id": "3ac10241-bf20-44b5-81a6-179eaeeb44b6",
+        "last_modified": null,
+        "metadata_modified": "2023-12-06T07:01:28.160591",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Ernteberichterstattung \u00fcber Feldfr\u00fcchte und Gr\u00fcnland in Schleswig-Holstein - - Vorl\u00e4ufige Ergebnisse -\r\nOktober 2023",
+        "package_id": "StaNord_CMS:65323",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-06T08:01:35.953083",
+          "openness_score": 2,
+          "openness_score_reason": "Content of file appeared to be format \"XLSX\" which receives openness score: 2.",
+          "format": "XLSX",
+          "created": "2023-12-06T08:01:33.222801",
+          "updated": "2023-12-06T08:01:37.410162"
+        },
+        "resource_type": null,
+        "size": 145243,
+        "state": "active",
+        "url": "https://www.statistik-nord.de/fileadmin/Dokumente/Statistische_Berichte/landwirtschaft/C_II_1_m_S/C_II_1_m2310_SH.xlsx",
+        "url_type": null
+      },
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": null,
+          "cache_filepath": "/var/lib/ckan/default/archive/77/776c132b-526f-4622-a70b-7da5f87bd75e/C_II_1_m2310_SH.pdf",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/77/776c132b-526f-4622-a70b-7da5f87bd75e/C_II_1_m2310_SH.pdf",
+          "size": 270918,
+          "mimetype": "application/pdf",
+          "hash": "2767b368f3343a5ae8586beeb431eaa31632086e",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-06T08:01:36.946978",
+          "failure_count": 0,
+          "created": "2023-12-06T08:01:32.551902",
+          "updated": "2023-12-06T08:01:36.946978",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-12-06T07:01:28.241236",
+        "description": null,
+        "format": "PDF",
+        "hash": "",
+        "id": "776c132b-526f-4622-a70b-7da5f87bd75e",
+        "last_modified": null,
+        "metadata_modified": "2023-12-06T07:01:28.160696",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Ernteberichterstattung \u00fcber Feldfr\u00fcchte und Gr\u00fcnland in Schleswig-Holstein - - Vorl\u00e4ufige Ergebnisse -\r\nOktober 2023",
+        "package_id": "StaNord_CMS:65323",
+        "position": 1,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-06T08:01:36.946978",
+          "openness_score": 1,
+          "openness_score_reason": "Content of file appeared to be format \"PDF\" which receives openness score: 1.",
+          "format": "PDF",
+          "created": "2023-12-06T08:01:33.228711",
+          "updated": "2023-12-06T08:01:37.415883"
+        },
+        "resource_type": null,
+        "size": 270918,
+        "state": "active",
+        "url": "https://www.statistik-nord.de/fileadmin/Dokumente/Statistische_Berichte/landwirtschaft/C_II_1_m_S/C_II_1_m2310_SH.pdf",
+        "url_type": null
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "Ernte: Feldfr\u00fcchte und Gr\u00fcnland",
+        "id": "efd84d93-d79f-4a63-9b64-a07e0237c708",
+        "name": "Ernte: Feldfr\u00fcchte und Gr\u00fcnland",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Ernteberichterstattung \u00fcber Feldfr\u00fcchte und Gr\u00fcnland in Schleswig-Holstein",
+        "id": "9d03e77e-c9a5-46d7-b473-85e25e869e9a",
+        "name": "Ernteberichterstattung \u00fcber Feldfr\u00fcchte und Gr\u00fcnland in Schleswig-Holstein",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  },
+  {
+    "author": null,
+    "author_email": null,
+    "creator_user_id": "7df583a3-350e-47ef-8738-3bbb68bdb954",
+    "id": "5e0652d8-7f59-42fc-92ab-a6358f800e1d",
+    "isopen": true,
+    "language": "http://publications.europa.eu/resource/authority/language/DEU",
+    "license_id": "http://dcat-ap.de/def/licenses/cc-by/4.0",
+    "license_title": "Creative Commons Namensnennung \u2013 4.0 International (CC BY 4.0)",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2022-12-11T06:36:03.531664",
+    "metadata_modified": "2023-12-06T06:19:51.132776",
+    "name": "fahrplandaten",
+    "notes": "Fahrplandaten im [General Transit Feed Specification (GTFS)](https://de.wikipedia.org/wiki/General_Transit_Feed_Specification) Format\r\n\r\nDie statischen Fahrplandaten stammen von den Bus- und Bahnunternehmen in Schleswig-Holstein. Der Verkehrsverbund Schleswig-Holstein vereinigt die Fahrplandaten in einem harmonisierten Datensatz. Der Datensatz f\u00fcr Schleswig-Holstein wird geografisch erg\u00e4nzt durch den Datensatz des im S\u00fcden Schleswig-Holsteins angrenzenden Hamburger Verkehrsverbund. Grund f\u00fcr die Aufteilung ist die Nutzung der beiden Datens\u00e4tze in Auskunftssystemen. Alternativ steht der bundesweite Datensatz unter [opendata-oepnv.de](https://opendata-oepnv.de) bereit. \r\n\r\nDie verwendeten Haltepunkte sind ggf. im gesamten Datensatz nur mit einem Punkt f\u00fcr beide Fahrtrichtungen dargestellt. Rudiment\u00e4re Tarifinformationen, die Tarifzonennummern, h\u00e4ngen an den Haltepunkten. \r\n\r\nNicht enthalten sind Echtzeitinformationen, die in einem separaten Feed folgen und fahrplanlose Verkehre, wie bspw. Sharing-Dienste.",
+    "num_resources": 1,
+    "num_tags": 4,
+    "organization": {
+      "id": "822973d3-af00-4240-80dd-77d7a7e20801",
+      "name": "nah-sh",
+      "title": "nah.sh",
+      "type": "organization",
+      "description": "Die Nahverkehrsverbund Schleswig-Holstein GmbH (NAH.SH GmbH) mit Sitz in Kiel bietet den Fahrg\u00e4sten im echten Norden Nahverkehr aus einer Hand: Im Auftrag des Landes Schleswig-Holstein organisiert sie als Aufgabentr\u00e4ger den Schienenpersonennahverkehr (SPNV). Im Verkehrsverbund wirken Kreise, kreisfreie St\u00e4dte und das Land Schleswig-Holstein gemeinsam, um einen modernen und wirtschaftlichen Nahverkehr auf Schiene und Stra\u00dfe zu entwickeln. \r\n\r\nNAH.SH stellt eine kartenbasierte Abfrage zum Bahnverkehr zur Verf\u00fcgung: https://www.nah.sh/de/karten/interaktive-karten-fuer-schleswig-holstein/",
+      "image_url": "https://opendata.zitsh.de/images/nahsh-logo.svg",
+      "created": "2022-03-10T07:26:09.650013",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "822973d3-af00-4240-80dd-77d7a7e20801",
+    "private": false,
+    "state": "active",
+    "title": "Fahrplandaten",
+    "type": "dataset",
+    "url": null,
+    "version": null,
+    "extras": [
+      {
+        "key": "groups",
+        "value": "tran"
+      },
+      {
+        "key": "issued",
+        "value": "2022-12-11T00:00:00"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": "nah.sh"
+      },
+      {
+        "key": "modified",
+        "value": "2023-12-06T07:20:07.511263"
+      },
+      {
+        "key": "reference",
+        "value": "https://musterdatenkatalog.de/def/musterdatensatz/oepnv/sollfahrdaten"
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[7.869, 53.36], [7.869, 55.0583], [11.3126, 55.0583], [11.3126, 53.36], [7.869, 53.36]]]}"
+      },
+      {
+        "key": "spatial_text",
+        "value": "Bundesland Schleswig-Holstein"
+      },
+      {
+        "key": "spatial_uri",
+        "value": "http://dcat-ap.de/def/politicalGeocoding/stateKey/01"
+      },
+      {
+        "key": "temporal_end",
+        "value": "2023-12-05T00:00:00"
+      },
+      {
+        "key": "temporal_start",
+        "value": "2023-12-05T00:00:00"
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Verkehr",
+        "id": "tran",
+        "image_display_url": "",
+        "name": "tran",
+        "title": "Verkehr"
+      }
+    ],
+    "resources": [
+      {
+        "archiver": {
+          "resource_timestamp": "2023-05-08T09:05:12.497257",
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": "https://opendata.schleswig-holstein.de/dataset/5e0652d8-7f59-42fc-92ab-a6358f800e1d/resource/edcfffbc-f36b-49d1-befd-0642099f77b9/download/fahrplandaten.zip",
+          "cache_filepath": "/var/lib/ckan/default/ckan_storage/resources/edc/fff/bc-f36b-49d1-befd-0642099f77b9",
+          "cache_url": "https://opendata.schleswig-holstein.de/dataset/5e0652d8-7f59-42fc-92ab-a6358f800e1d/resource/edcfffbc-f36b-49d1-befd-0642099f77b9/download/fahrplandaten.zip",
+          "size": 30481988,
+          "mimetype": "application/zip",
+          "hash": "132c51973c8b2ba80b02c237509b662004e7833b",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-06T07:20:07.200924",
+          "failure_count": 0,
+          "created": "2022-12-11T07:38:54.891198",
+          "updated": "2023-12-06T07:20:07.200924",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2022-12-11T06:38:53.274470",
+        "description": "",
+        "format": "ZIP",
+        "hash": "96f85336f9340c7f707d84ef519f469c",
+        "hash_algorithm": "http://dcat-ap.de/def/hashAlgorithms/md/5",
+        "id": "edcfffbc-f36b-49d1-befd-0642099f77b9",
+        "last_modified": "2022-12-11T06:38:53.168288",
+        "metadata_modified": "2023-12-06T06:19:51.135717",
+        "mimetype": "application/zip",
+        "mimetype_inner": null,
+        "name": "GTFS",
+        "package_id": "5e0652d8-7f59-42fc-92ab-a6358f800e1d",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-06T07:20:07.200924",
+          "openness_score": 1,
+          "openness_score_reason": "Content of file appeared to be format \"GTFS\" which receives openness score: None. URL extension \"zip\" relates to format \"ZIP\" and receives score: 1.",
+          "format": "ZIP",
+          "created": "2022-12-11T07:38:55.807803",
+          "updated": "2023-12-06T07:20:07.681905"
+        },
+        "resource_type": null,
+        "size": 30481988,
+        "state": "active",
+        "url": "https://opendata.schleswig-holstein.de/dataset/5e0652d8-7f59-42fc-92ab-a6358f800e1d/resource/edcfffbc-f36b-49d1-befd-0642099f77b9/download/fahrplandaten.zip",
+        "url_type": "upload"
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "Busfahrplan",
+        "id": "4a762bf6-c83c-48b6-89db-990f01d4d910",
+        "name": "Busfahrplan",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Fahrplan",
+        "id": "6083de7e-a248-4edb-be1c-3cda3f5d4e55",
+        "name": "Fahrplan",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Sollfahrdaten",
+        "id": "c960f578-3344-42e9-ac81-e0fbd8312eb8",
+        "name": "Sollfahrdaten",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "\u00d6PNV",
+        "id": "879a502d-c9ad-48d5-a2f9-a32d442e1816",
+        "name": "\u00d6PNV",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  },
+  {
+    "author": null,
+    "author_email": null,
+    "creator_user_id": "7df583a3-350e-47ef-8738-3bbb68bdb954",
+    "id": "4600a89e-fce1-4e9b-8fc8-56ee284a94e1",
+    "isopen": true,
+    "language": "http://publications.europa.eu/resource/authority/language/DEU",
+    "license_id": "http://dcat-ap.de/def/licenses/cc-zero",
+    "license_title": "Creative Commons CC Zero License (cc-zero)",
+    "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2023-12-05T06:19:48.545260",
+    "metadata_modified": "2023-12-06T06:19:47.445895",
+    "name": "kfu-messwerte-2023-12-05",
+    "notes": "st\u00fcndliche Messwerte der Kernkraftwerksfern\u00fcberwachung Schleswig-Holstein, Gamma-Ortsdosisleistung und meteorologische Ausbreitungsparameter.\r\n\r\nDie Datei ist in drei Bereiche untergliedert:\r\n\r\n1. st\u00fcndliche Messwerte mit einer Spalte pro Messstation/Messwert\r\n2. Liste der Messstationen\r\n3. Kommentare zu einzelnen Datenpunkten\r\n\r\nMehr Informationen zur Kernkraftwerksfern\u00fcberwachung Schleswig-Holstein erfahren Sie auf der Webseite https://www.schleswig-holstein.de/DE/fachinhalte/R/reaktorsicherheit/Kernkraftwerksfernueberwachung.\r\n",
+    "num_resources": 1,
+    "num_tags": 3,
+    "organization": {
+      "id": "d791be73-4877-47ec-ad0f-5d313d159f75",
+      "name": "mekun",
+      "title": "Ministerium f\u00fcr Energiewende, Klimaschutz, Umwelt und Natur",
+      "type": "organization",
+      "description": "",
+      "image_url": "2023-08-01-102821.268412mekun.png",
+      "created": "2022-08-18T07:58:44.906829",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "d791be73-4877-47ec-ad0f-5d313d159f75",
+    "private": false,
+    "state": "active",
+    "title": "KF\u00dc-Messwerte",
+    "type": "dataset",
+    "url": null,
+    "version": null,
+    "extras": [
+      {
+        "key": "groups",
+        "value": "envi,tech"
+      },
+      {
+        "key": "issued",
+        "value": "2023-12-05T07:20:03.559250"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": ""
+      },
+      {
+        "key": "modified",
+        "value": "2023-12-05T07:20:03.55925"
+      },
+      {
+        "key": "reference",
+        "value": ""
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[9.027100, 54.089246], [10.610718, 54.089246], [10.610718, 53.329292], [9.027100, 53.329292], [9.027100, 54.089246]]]}"
+      },
+      {
+        "key": "temporal_end",
+        "value": "2023-12-04T00:00:00"
+      },
+      {
+        "key": "temporal_start",
+        "value": "2023-11-27T00:00:00"
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Umwelt",
+        "id": "envi",
+        "image_display_url": "",
+        "name": "envi",
+        "title": "Umwelt"
+      },
+      {
+        "description": "",
+        "display_name": "Wissenschaft und Technologie",
+        "id": "tech",
+        "image_display_url": "",
+        "name": "tech",
+        "title": "Wissenschaft und Technologie"
+      }
+    ],
+    "relationships_as_subject": [
+      {
+        "__extras": {
+          "subject_package_id": "4600a89e-fce1-4e9b-8fc8-56ee284a94e1",
+          "object_package_id": "d5d010b0-dce0-4a19-8f55-445612dd389c"
+        },
+        "comment": "",
+        "id": "24a136ec-0989-4b3a-ae9c-de014c4d9afd",
+        "type": "child_of"
+      }
+    ],
+    "resources": [
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": "https://opendata.schleswig-holstein.de/dataset/4600a89e-fce1-4e9b-8fc8-56ee284a94e1/resource/3b746bdf-1ccd-4939-bdfa-b4d4260ba2a5/download/opendata-kfue-odl_7t.csv",
+          "cache_filepath": "/var/lib/ckan/default/ckan_storage/resources/3b7/46b/df-1ccd-4939-bdfa-b4d4260ba2a5",
+          "cache_url": "https://opendata.schleswig-holstein.de/dataset/4600a89e-fce1-4e9b-8fc8-56ee284a94e1/resource/3b746bdf-1ccd-4939-bdfa-b4d4260ba2a5/download/opendata-kfue-odl_7t.csv",
+          "size": 155592,
+          "mimetype": "text/csv",
+          "hash": "1a4b515a0ea70dccfb6cbae790fcf4696465f325",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-06T07:19:59.606318",
+          "failure_count": 0,
+          "created": "2023-12-05T07:19:51.136990",
+          "updated": "2023-12-06T07:19:59.606318",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-12-05T06:19:49.689506",
+        "description": null,
+        "format": "CSV",
+        "hash": "e45ef0cf4fe43c635f3b15ce2456f6bc",
+        "id": "3b746bdf-1ccd-4939-bdfa-b4d4260ba2a5",
+        "last_modified": "2023-12-05T06:19:49.671299",
+        "metadata_modified": "2023-12-06T06:19:47.448969",
+        "mimetype": "text/csv",
+        "mimetype_inner": null,
+        "name": "OpenData-KFUE-ODL_7T.csv",
+        "package_id": "4600a89e-fce1-4e9b-8fc8-56ee284a94e1",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-06T07:19:59.606318",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"CSV\" which receives openness score: 3.",
+          "format": "CSV",
+          "created": "2023-12-05T07:19:51.675902",
+          "updated": "2023-12-06T07:20:00.104711"
+        },
+        "resource_type": null,
+        "size": 155592,
+        "state": "active",
+        "url": "https://opendata.schleswig-holstein.de/dataset/4600a89e-fce1-4e9b-8fc8-56ee284a94e1/resource/3b746bdf-1ccd-4939-bdfa-b4d4260ba2a5/download/opendata-kfue-odl_7t.csv",
+        "url_type": "upload"
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "Gamma-Ortsdosisleistung",
+        "id": "bfa6f4ea-7ec4-412b-b1b6-7c42b357d003",
+        "name": "Gamma-Ortsdosisleistung",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "KF\u00dc",
+        "id": "b4f65742-6fc0-4bf4-878d-c748f5458777",
+        "name": "KF\u00dc",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Strahlung",
+        "id": "0ad2c0fd-5a66-48e8-ae79-59a25a5eb977",
+        "name": "Strahlung",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_object": []
+  },
+  {
+    "author": null,
+    "author_email": null,
+    "creator_user_id": "7df583a3-350e-47ef-8738-3bbb68bdb954",
+    "id": "4091d79d-be0d-4c09-ad0c-f82552c5bf2e",
+    "isopen": true,
+    "language": "http://publications.europa.eu/resource/authority/language/DEU",
+    "license_id": "http://dcat-ap.de/def/licenses/cc-zero",
+    "license_title": "Creative Commons CC Zero License (cc-zero)",
+    "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2023-12-06T06:19:45.793955",
+    "metadata_modified": "2023-12-06T06:19:46.855448",
+    "name": "kfu-messwerte-2023-12-06",
+    "notes": "st\u00fcndliche Messwerte der Kernkraftwerksfern\u00fcberwachung Schleswig-Holstein, Gamma-Ortsdosisleistung und meteorologische Ausbreitungsparameter.\r\n\r\nDie Datei ist in drei Bereiche untergliedert:\r\n\r\n1. st\u00fcndliche Messwerte mit einer Spalte pro Messstation/Messwert\r\n2. Liste der Messstationen\r\n3. Kommentare zu einzelnen Datenpunkten\r\n\r\nMehr Informationen zur Kernkraftwerksfern\u00fcberwachung Schleswig-Holstein erfahren Sie auf der Webseite https://www.schleswig-holstein.de/DE/fachinhalte/R/reaktorsicherheit/Kernkraftwerksfernueberwachung.\r\n",
+    "num_resources": 1,
+    "num_tags": 3,
+    "organization": {
+      "id": "d791be73-4877-47ec-ad0f-5d313d159f75",
+      "name": "mekun",
+      "title": "Ministerium f\u00fcr Energiewende, Klimaschutz, Umwelt und Natur",
+      "type": "organization",
+      "description": "",
+      "image_url": "2023-08-01-102821.268412mekun.png",
+      "created": "2022-08-18T07:58:44.906829",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "d791be73-4877-47ec-ad0f-5d313d159f75",
+    "private": false,
+    "state": "active",
+    "title": "KF\u00dc-Messwerte",
+    "type": "dataset",
+    "url": null,
+    "version": null,
+    "extras": [
+      {
+        "key": "groups",
+        "value": "envi,tech"
+      },
+      {
+        "key": "issued",
+        "value": "2023-12-06T07:20:03.224613"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": ""
+      },
+      {
+        "key": "modified",
+        "value": "2023-12-06T07:20:03.224613"
+      },
+      {
+        "key": "reference",
+        "value": ""
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[9.027100, 54.089246], [10.610718, 54.089246], [10.610718, 53.329292], [9.027100, 53.329292], [9.027100, 54.089246]]]}"
+      },
+      {
+        "key": "temporal_end",
+        "value": "2023-12-05T00:00:00"
+      },
+      {
+        "key": "temporal_start",
+        "value": "2023-11-28T00:00:00"
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Umwelt",
+        "id": "envi",
+        "image_display_url": "",
+        "name": "envi",
+        "title": "Umwelt"
+      },
+      {
+        "description": "",
+        "display_name": "Wissenschaft und Technologie",
+        "id": "tech",
+        "image_display_url": "",
+        "name": "tech",
+        "title": "Wissenschaft und Technologie"
+      }
+    ],
+    "relationships_as_subject": [
+      {
+        "__extras": {
+          "subject_package_id": "4091d79d-be0d-4c09-ad0c-f82552c5bf2e",
+          "object_package_id": "d5d010b0-dce0-4a19-8f55-445612dd389c"
+        },
+        "comment": "",
+        "id": "3f24660a-8509-4686-b7c1-118d552ef298",
+        "type": "child_of"
+      }
+    ],
+    "resources": [
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": "https://opendata.schleswig-holstein.de/dataset/4091d79d-be0d-4c09-ad0c-f82552c5bf2e/resource/417458cc-41e7-42b5-9e3a-c7c1fcbac9b6/download/opendata-kfue-odl_7t.csv",
+          "cache_filepath": "/var/lib/ckan/default/ckan_storage/resources/417/458/cc-41e7-42b5-9e3a-c7c1fcbac9b6",
+          "cache_url": "https://opendata.schleswig-holstein.de/dataset/4091d79d-be0d-4c09-ad0c-f82552c5bf2e/resource/417458cc-41e7-42b5-9e3a-c7c1fcbac9b6/download/opendata-kfue-odl_7t.csv",
+          "size": 155547,
+          "mimetype": "text/csv",
+          "hash": "fbc0f5eaefb35704e8b9e0b9ace59fbcff1d4355",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-06T07:19:57.096902",
+          "failure_count": 0,
+          "created": "2023-12-06T07:19:49.437276",
+          "updated": "2023-12-06T07:19:57.096902",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-12-06T06:19:46.864934",
+        "description": null,
+        "format": "CSV",
+        "hash": "fb3c779d9e49987736e3568e79303752",
+        "id": "417458cc-41e7-42b5-9e3a-c7c1fcbac9b6",
+        "last_modified": "2023-12-06T06:19:46.848007",
+        "metadata_modified": "2023-12-06T06:19:46.858466",
+        "mimetype": "text/csv",
+        "mimetype_inner": null,
+        "name": "OpenData-KFUE-ODL_7T.csv",
+        "package_id": "4091d79d-be0d-4c09-ad0c-f82552c5bf2e",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-06T07:19:57.096902",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"CSV\" which receives openness score: 3.",
+          "format": "CSV",
+          "created": "2023-12-06T07:19:49.948200",
+          "updated": "2023-12-06T07:19:57.606632"
+        },
+        "resource_type": null,
+        "size": 155547,
+        "state": "active",
+        "url": "https://opendata.schleswig-holstein.de/dataset/4091d79d-be0d-4c09-ad0c-f82552c5bf2e/resource/417458cc-41e7-42b5-9e3a-c7c1fcbac9b6/download/opendata-kfue-odl_7t.csv",
+        "url_type": "upload"
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "Gamma-Ortsdosisleistung",
+        "id": "bfa6f4ea-7ec4-412b-b1b6-7c42b357d003",
+        "name": "Gamma-Ortsdosisleistung",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "KF\u00dc",
+        "id": "b4f65742-6fc0-4bf4-878d-c748f5458777",
+        "name": "KF\u00dc",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Strahlung",
+        "id": "0ad2c0fd-5a66-48e8-ae79-59a25a5eb977",
+        "name": "Strahlung",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_object": []
+  },
+  {
+    "author": "Statistisches Amt f\u00fcr Hamburg und Schleswig-Holstein",
+    "author_email": "info@statistik-nord.de",
+    "creator_user_id": "365772f8-13ae-4838-8459-d5e9ce7269f2",
+    "id": "StaNord_CMS:65320",
+    "isopen": true,
+    "license_id": "http://dcat-ap.de/def/licenses/dl-by-de/2.0",
+    "license_title": "Datenlizenz Deutschland Namensnennung 2.0",
+    "license_url": "https://www.govdata.de/dl-de/by-2-0",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2023-12-05T06:45:33.963964",
+    "metadata_modified": "2023-12-05T06:45:33.963967",
+    "name": "die-schlachtungen-in-schleswig-holstein-im-oktober-2023",
+    "notes": "Die Schlachtungen in Schleswig-Holstein im Oktober 2023 - - Vorl\u00e4ufige Ergebnisse -",
+    "num_resources": 2,
+    "num_tags": 3,
+    "organization": {
+      "id": "statistikamt-nord",
+      "name": "statistikamt-nord",
+      "title": "Statistisches Amt f\u00fcr Hamburg und Schleswig-Holstein A.\u00f6.R. (Statistikamt Nord)",
+      "type": "organization",
+      "description": "Das Statistische Amt f\u00fcr Hamburg und Schleswig-Holstein \u2013 das Statistikamt Nord \u2013 erhebt und ver\u00f6ffentlicht als Teil der amtlichen Statistik in Deutschland statistische Informationen zu allen gesellschaftlichen Themen f\u00fcr die Bundesl\u00e4nder Hamburg und Schleswig-Holstein. Als Anstalt des \u00f6ffentlichen Rechts f\u00fchrt es alle durch Bundes- und EU- Gesetze angeordneten Statistiken im Auftrag der Tr\u00e4gerl\u00e4nder Hamburg und Schleswig-Holstein f\u00fcr die beiden Bundesl\u00e4nder durch, bereitet die Daten auf und interpretiert die Ergebnisse. Die objektiv und unabh\u00e4ngig erstellten Statistiken werden Verwaltung, Politik, Medien sowie B\u00fcrgerinnen und B\u00fcrgern gleicherma\u00dfen zug\u00e4nglich gemacht. Dar\u00fcber hinaus bietet das Amt Dienstleistungen im Bereich Datenerhebung, -aufbereitung und -analyse nach individuellem Kundenwunsch an. Das Statistikamt Nord ist hervorgegangen aus den vormaligen Statistischen Landes\u00e4mtern Hamburg und Schleswig-Holstein. Seit 2004 firmiert es als l\u00e4nder\u00fcbergreifende Anstalt an den Standorten Hamburg und Kiel.",
+      "image_url": "https://www.statistik-nord.de/static/img/logo-text.svg",
+      "created": "2020-01-23T12:45:40.921925",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "statistikamt-nord",
+    "private": false,
+    "state": "active",
+    "title": "Die Schlachtungen in Schleswig-Holstein im Oktober 2023",
+    "type": "dataset",
+    "url": "http://www.statistik-nord.de",
+    "version": null,
+    "extras": [
+      {
+        "key": "issued",
+        "value": "2023-12-05T00:00:00"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": "Statistisches Amt f\u00fcr Hamburg und Schleswig-Holstein - Anstalt des \u00f6ffentlichen Rechts - (Statistikamt Nord)"
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[7.869, 53.36], [7.869, 55.0583], [11.3126, 55.0583], [11.3126, 53.36], [7.869, 53.36]]]}"
+      },
+      {
+        "key": "spatial_text",
+        "value": "Bundesland Schleswig-Holstein"
+      },
+      {
+        "key": "spatial_uri",
+        "value": "http://dcat-ap.de/def/politicalGeocoding/stateKey/01"
+      },
+      {
+        "key": "temporal_end",
+        "value": "2023-10-31T00:00:00"
+      },
+      {
+        "key": "temporal_start",
+        "value": "2023-10-01T00:00:00"
+      },
+      {
+        "key": "harvest_object_id",
+        "value": "46663d0b-1002-4e0f-9147-2b9bdcc68da6"
+      },
+      {
+        "key": "harvest_source_id",
+        "value": "169986ba-2493-4b42-9258-c17a58970fbb"
+      },
+      {
+        "key": "harvest_source_title",
+        "value": "Statistikamt Nord \u23f2"
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+        "id": "agri",
+        "image_display_url": "",
+        "name": "agri",
+        "title": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel"
+      }
+    ],
+    "resources": [
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": null,
+          "cache_filepath": "/var/lib/ckan/default/archive/c0/c03d36a9-09e8-45f6-b653-a26920639b8b/C_III_2_m_2310_SH.xlsx",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/c0/c03d36a9-09e8-45f6-b653-a26920639b8b/C_III_2_m_2310_SH.xlsx",
+          "size": 140323,
+          "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "hash": "a44126871fbad29643d9d35ef046ea2d357baf4b",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-05T07:45:41.639198",
+          "failure_count": 0,
+          "created": "2023-12-05T07:45:37.312340",
+          "updated": "2023-12-05T07:45:41.639198",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-12-05T06:45:33.969405",
+        "description": null,
+        "format": "XLSX",
+        "hash": "",
+        "id": "c03d36a9-09e8-45f6-b653-a26920639b8b",
+        "last_modified": null,
+        "metadata_modified": "2023-12-05T06:45:33.957949",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Die Schlachtungen in Schleswig-Holstein im Oktober 2023 - - Vorl\u00e4ufige Ergebnisse -",
+        "package_id": "StaNord_CMS:65320",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-05T07:45:41.639198",
+          "openness_score": 2,
+          "openness_score_reason": "Content of file appeared to be format \"XLSX\" which receives openness score: 2.",
+          "format": "XLSX",
+          "created": "2023-12-05T07:45:38.891029",
+          "updated": "2023-12-05T07:45:43.218410"
+        },
+        "resource_type": null,
+        "size": 140323,
+        "state": "active",
+        "url": "https://www.statistik-nord.de/fileadmin/Dokumente/Statistische_Berichte/landwirtschaft/C_III_2_m_S/C_III_2_m_2310_SH.xlsx",
+        "url_type": null
+      },
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": null,
+          "cache_filepath": "/var/lib/ckan/default/archive/f5/f557fd26-30a8-468d-8cdd-2aff77b62a4d/C_III_2_m_2310_SH.pdf",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/f5/f557fd26-30a8-468d-8cdd-2aff77b62a4d/C_III_2_m_2310_SH.pdf",
+          "size": 309001,
+          "mimetype": "application/pdf",
+          "hash": "7d4d206207db16f47d9eb49482ac74a2e4e94bc3",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-05T07:45:42.717709",
+          "failure_count": 0,
+          "created": "2023-12-05T07:45:38.395030",
+          "updated": "2023-12-05T07:45:42.717709",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-12-05T06:45:33.969408",
+        "description": null,
+        "format": "PDF",
+        "hash": "",
+        "id": "f557fd26-30a8-468d-8cdd-2aff77b62a4d",
+        "last_modified": null,
+        "metadata_modified": "2023-12-05T06:45:33.958057",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Die Schlachtungen in Schleswig-Holstein im Oktober 2023 - - Vorl\u00e4ufige Ergebnisse -",
+        "package_id": "StaNord_CMS:65320",
+        "position": 1,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-05T07:45:42.717709",
+          "openness_score": 1,
+          "openness_score_reason": "Content of file appeared to be format \"PDF\" which receives openness score: 1.",
+          "format": "PDF",
+          "created": "2023-12-05T07:45:38.896759",
+          "updated": "2023-12-05T07:45:43.224450"
+        },
+        "resource_type": null,
+        "size": 309001,
+        "state": "active",
+        "url": "https://www.statistik-nord.de/fileadmin/Dokumente/Statistische_Berichte/landwirtschaft/C_III_2_m_S/C_III_2_m_2310_SH.pdf",
+        "url_type": null
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "Schlachtungen in Schleswig-Holstein",
+        "id": "e360a72a-513d-4c42-aabd-f6413481abbd",
+        "name": "Schlachtungen in Schleswig-Holstein",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Viehbestand",
+        "id": "ba9090c0-34b8-4ede-9410-077174d57725",
+        "name": "Viehbestand",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "tierische Erzeugung",
+        "id": "c7c78b0f-aeb1-4d6e-868b-5d7cd9ebba80",
+        "name": "tierische Erzeugung",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  },
+  {
+    "author": null,
+    "author_email": null,
+    "creator_user_id": "7df583a3-350e-47ef-8738-3bbb68bdb954",
+    "id": "3ef81085-ea5a-4aa7-9561-5e6c52b2b4b0",
+    "isopen": true,
+    "language": "http://publications.europa.eu/resource/authority/language/DEU",
+    "license_id": "http://dcat-ap.de/def/licenses/cc-zero",
+    "license_title": "Creative Commons CC Zero License (cc-zero)",
+    "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2023-12-02T06:19:55.760965",
+    "metadata_modified": "2023-12-05T06:19:50.175206",
+    "name": "kfu-messwerte-2023-12-02",
+    "notes": "st\u00fcndliche Messwerte der Kernkraftwerksfern\u00fcberwachung Schleswig-Holstein, Gamma-Ortsdosisleistung und meteorologische Ausbreitungsparameter.\r\n\r\nDie Datei ist in drei Bereiche untergliedert:\r\n\r\n1. st\u00fcndliche Messwerte mit einer Spalte pro Messstation/Messwert\r\n2. Liste der Messstationen\r\n3. Kommentare zu einzelnen Datenpunkten\r\n\r\nMehr Informationen zur Kernkraftwerksfern\u00fcberwachung Schleswig-Holstein erfahren Sie auf der Webseite https://www.schleswig-holstein.de/DE/fachinhalte/R/reaktorsicherheit/Kernkraftwerksfernueberwachung.\r\n",
+    "num_resources": 1,
+    "num_tags": 3,
+    "organization": {
+      "id": "d791be73-4877-47ec-ad0f-5d313d159f75",
+      "name": "mekun",
+      "title": "Ministerium f\u00fcr Energiewende, Klimaschutz, Umwelt und Natur",
+      "type": "organization",
+      "description": "",
+      "image_url": "2023-08-01-102821.268412mekun.png",
+      "created": "2022-08-18T07:58:44.906829",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "d791be73-4877-47ec-ad0f-5d313d159f75",
+    "private": false,
+    "state": "active",
+    "title": "KF\u00dc-Messwerte",
+    "type": "dataset",
+    "url": null,
+    "version": null,
+    "extras": [
+      {
+        "key": "groups",
+        "value": "envi,tech"
+      },
+      {
+        "key": "issued",
+        "value": "2023-12-02T07:20:03.465387"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": ""
+      },
+      {
+        "key": "modified",
+        "value": "2023-12-02T07:20:03.465387"
+      },
+      {
+        "key": "reference",
+        "value": ""
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[9.027100, 54.089246], [10.610718, 54.089246], [10.610718, 53.329292], [9.027100, 53.329292], [9.027100, 54.089246]]]}"
+      },
+      {
+        "key": "temporal_end",
+        "value": "2023-12-01T00:00:00"
+      },
+      {
+        "key": "temporal_start",
+        "value": "2023-11-24T00:00:00"
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Umwelt",
+        "id": "envi",
+        "image_display_url": "",
+        "name": "envi",
+        "title": "Umwelt"
+      },
+      {
+        "description": "",
+        "display_name": "Wissenschaft und Technologie",
+        "id": "tech",
+        "image_display_url": "",
+        "name": "tech",
+        "title": "Wissenschaft und Technologie"
+      }
+    ],
+    "relationships_as_subject": [
+      {
+        "__extras": {
+          "subject_package_id": "3ef81085-ea5a-4aa7-9561-5e6c52b2b4b0",
+          "object_package_id": "d5d010b0-dce0-4a19-8f55-445612dd389c"
+        },
+        "comment": "",
+        "id": "513219b8-f746-48d5-a5dc-ce5f94d38563",
+        "type": "child_of"
+      }
+    ],
+    "resources": [
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": "https://opendata.schleswig-holstein.de/dataset/3ef81085-ea5a-4aa7-9561-5e6c52b2b4b0/resource/1b34df81-89ec-411e-8957-7fe293b38cbf/download/opendata-kfue-odl_7t.csv",
+          "cache_filepath": "/var/lib/ckan/default/ckan_storage/resources/1b3/4df/81-89ec-411e-8957-7fe293b38cbf",
+          "cache_url": "https://opendata.schleswig-holstein.de/dataset/3ef81085-ea5a-4aa7-9561-5e6c52b2b4b0/resource/1b34df81-89ec-411e-8957-7fe293b38cbf/download/opendata-kfue-odl_7t.csv",
+          "size": 156479,
+          "mimetype": "text/csv",
+          "hash": "f5c1e33598005a5acc73f765e4d7b8900d4de3ce",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-05T07:20:01.373633",
+          "failure_count": 0,
+          "created": "2023-12-02T08:18:40.518004",
+          "updated": "2023-12-05T07:20:01.373633",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-12-02T06:20:02.229280",
+        "description": null,
+        "format": "CSV",
+        "hash": "994086df47a187ed899e96478a54d83d",
+        "id": "1b34df81-89ec-411e-8957-7fe293b38cbf",
+        "last_modified": "2023-12-02T06:20:02.194356",
+        "metadata_modified": "2023-12-05T06:19:50.178462",
+        "mimetype": "text/csv",
+        "mimetype_inner": null,
+        "name": "OpenData-KFUE-ODL_7T.csv",
+        "package_id": "3ef81085-ea5a-4aa7-9561-5e6c52b2b4b0",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-05T07:20:01.373633",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"CSV\" which receives openness score: 3.",
+          "format": "CSV",
+          "created": "2023-12-02T08:18:41.056278",
+          "updated": "2023-12-05T07:20:01.906409"
+        },
+        "resource_type": null,
+        "size": 156479,
+        "state": "active",
+        "url": "https://opendata.schleswig-holstein.de/dataset/3ef81085-ea5a-4aa7-9561-5e6c52b2b4b0/resource/1b34df81-89ec-411e-8957-7fe293b38cbf/download/opendata-kfue-odl_7t.csv",
+        "url_type": "upload"
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "Gamma-Ortsdosisleistung",
+        "id": "bfa6f4ea-7ec4-412b-b1b6-7c42b357d003",
+        "name": "Gamma-Ortsdosisleistung",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "KF\u00dc",
+        "id": "b4f65742-6fc0-4bf4-878d-c748f5458777",
+        "name": "KF\u00dc",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Strahlung",
+        "id": "0ad2c0fd-5a66-48e8-ae79-59a25a5eb977",
+        "name": "Strahlung",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_object": []
+  },
+  {
+    "author": null,
+    "author_email": null,
+    "creator_user_id": "365772f8-13ae-4838-8459-d5e9ce7269f2",
+    "id": "9fbd7885-50cb-4cc6-b4a5-fb84bd50b711",
+    "isopen": true,
+    "language": "[\"http://publications.europa.eu/resource/authority/language/DEU\"]",
+    "license_id": "http://dcat-ap.de/def/licenses/cc-by/4.0",
+    "license_title": "Creative Commons Namensnennung \u2013 4.0 International (CC BY 4.0)",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2023-12-04T08:39:37.462214",
+    "metadata_modified": "2023-12-04T08:39:37.462217",
+    "name": "geschutzte-landschaftsbestandteile-lh-kiel-glb",
+    "notes": "Grenzen der durch Verordnung festgesetzten gesch\u00fctzten Landschaftsbestandteile. Datensatz zum INSPIRE-Anhang-I-Thema Schutzgebiete f\u00fcr das Stadtgebiet Kiel.",
+    "num_resources": 1,
+    "num_tags": 9,
+    "organization": {
+      "id": "landeshauptstadt-kiel",
+      "name": "landeshauptstadt-kiel",
+      "title": "Landeshauptstadt Kiel",
+      "type": "organization",
+      "description": "Die Stadt Kiel ist die n\u00f6rdlichste Gro\u00dfstadt Deutschlands und die Landeshauptstadt Schleswig-Holsteins. Als kreisfreie Stadt erledigt sie neben den kommunalen Selbstverwaltungsaufgaben auch Aufgaben einer unteren staatlichen Verwaltungsbeh\u00f6rde und erzeugt, erhebt und verarbeitet als Gebietsk\u00f6rperschaft eine Vielzahl von Daten mit lokalem Bezug.",
+      "image_url": "https://www.kiel.de/images/logo-kiel-sailing-city.svg",
+      "created": "2020-01-23T12:45:40.761397",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "landeshauptstadt-kiel",
+    "private": false,
+    "state": "active",
+    "title": "Gesch\u00fctzte Landschaftsbestandteile LH Kiel (GLB)",
+    "type": "dataset",
+    "url": null,
+    "version": null,
+    "extras": [
+      {
+        "key": "access_rights",
+        "value": "http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations"
+      },
+      {
+        "key": "alternate_identifier",
+        "value": "[\"6ad5b685-b0b4-40ca-8946-a96a5dd09739\"]"
+      },
+      {
+        "key": "conforms_to",
+        "value": "[\"http://www.opengis.net/def/crs/EPSG/0/25832\"]"
+      },
+      {
+        "key": "contact_email",
+        "value": "malte.loebel@kiel.de"
+      },
+      {
+        "key": "contact_name",
+        "value": "Landeshauptstadt Kiel"
+      },
+      {
+        "key": "contributorID",
+        "value": "[\"https://gdi-sh.de\"]"
+      },
+      {
+        "key": "dcat_type",
+        "value": "http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset"
+      },
+      {
+        "key": "frequency",
+        "value": "http://publications.europa.eu/resource/authority/frequency/IRREG"
+      },
+      {
+        "key": "guid",
+        "value": "http://registry.gdi-de.org/id/de.sh/6ad5b685-b0b4-40ca-8946-a96a5dd09739"
+      },
+      {
+        "key": "identifier",
+        "value": "6ad5b685-b0b4-40ca-8946-a96a5dd09739"
+      },
+      {
+        "key": "issued",
+        "value": "2020-01-06T00:00:00"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": "\u00a9Umweltschutzamt-Kiel/CC BY 4.0"
+      },
+      {
+        "key": "maintainer_city",
+        "value": "Kiel"
+      },
+      {
+        "key": "maintainer_country",
+        "value": "Schleswig-Holstein"
+      },
+      {
+        "key": "maintainer_street",
+        "value": "Holstenstra\u00dfe 108"
+      },
+      {
+        "key": "maintainer_tel",
+        "value": "+49431-901-3785"
+      },
+      {
+        "key": "maintainer_url",
+        "value": "https://www.kiel.de"
+      },
+      {
+        "key": "maintainer_zip",
+        "value": "24103"
+      },
+      {
+        "key": "metadata_harvested_portal",
+        "value": "sh-mis"
+      },
+      {
+        "key": "modified",
+        "value": "2023-11-21"
+      },
+      {
+        "key": "publisher_email",
+        "value": "mailto:malte.loebel@kiel.de"
+      },
+      {
+        "key": "publisher_name",
+        "value": "Landeshauptstadt Kiel"
+      },
+      {
+        "key": "publisher_url",
+        "value": "https://www.kiel.de"
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[10.04, 54.43], [10.25, 54.43], [10.25, 54.25], [10.04, 54.25], [10.04, 54.43]]]}"
+      },
+      {
+        "key": "temporal_start",
+        "value": "2020-01-06T00:00:00"
+      },
+      {
+        "key": "theme",
+        "value": "[\"http://publications.europa.eu/resource/authority/data-theme/ENVI\"]"
+      },
+      {
+        "key": "uri",
+        "value": "http://registry.gdi-de.org/id/de.sh/6ad5b685-b0b4-40ca-8946-a96a5dd09739"
+      },
+      {
+        "key": "harvest_object_id",
+        "value": "d9b25100-4627-4eb9-866a-46b114a821cf"
+      },
+      {
+        "key": "harvest_source_id",
+        "value": "38869aff-2079-4790-bd0e-70714637ab7c"
+      },
+      {
+        "key": "harvest_source_title",
+        "value": "SH-MIS"
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Umwelt",
+        "id": "envi",
+        "image_display_url": "",
+        "name": "envi",
+        "title": "Umwelt"
+      }
+    ],
+    "resources": [
+      {
+        "access_url": "https://service.gdi-sh.de/SH_INSPIREDOWNLOAD_AI_PS?service=wfs&version=2.0.0&request=GetCapabilities",
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": null,
+          "cache_filepath": "/var/lib/ckan/default/archive/8b/8b69d479-4d91-436e-a404-45c7d9ba90e4/SH_INSPIREDOWNLOAD_AI_PS",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/8b/8b69d479-4d91-436e-a404-45c7d9ba90e4/SH_INSPIREDOWNLOAD_AI_PS",
+          "size": 37059,
+          "mimetype": "text/xml",
+          "hash": "10b0538fff297471b2a54f76556a9a6d2d2a65d9",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-04T09:39:43.684845",
+          "failure_count": 0,
+          "created": "2023-12-04T09:39:40.631615",
+          "updated": "2023-12-04T09:39:43.684845",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-12-04T08:39:37.475711",
+        "description": null,
+        "distribution_ref": "https://service.gdi-sh.de/SH_INSPIREDOWNLOAD_AI_PS?service=wfs&version=2.0.0&request=GetCapabilities",
+        "download_url": "https://service.gdi-sh.de/SH_INSPIREDOWNLOAD_AI_PS?service=wfs&version=2.0.0&request=GetCapabilities",
+        "format": "WFS_SRVC",
+        "hash": "",
+        "id": "8b69d479-4d91-436e-a404-45c7d9ba90e4",
+        "last_modified": null,
+        "license": "http://dcat-ap.de/def/licenses/cc-by/4.0",
+        "licenseAttributionByText": "\u00a9Umweltschutzamt-Kiel/CC BY 4.0",
+        "metadata_modified": "2023-12-04T08:39:37.452513",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": null,
+        "package_id": "9fbd7885-50cb-4cc6-b4a5-fb84bd50b711",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-04T09:39:43.684845",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"WFS\" which receives openness score: 3.",
+          "format": "WFS",
+          "created": "2023-12-04T09:39:41.607529",
+          "updated": "2023-12-04T09:39:44.514917"
+        },
+        "resource_type": null,
+        "size": null,
+        "state": "active",
+        "uri": "https://service.gdi-sh.de/SH_INSPIREDOWNLOAD_AI_PS?service=wfs&version=2.0.0&request=GetCapabilities",
+        "url": "https://service.gdi-sh.de/SH_INSPIREDOWNLOAD_AI_PS?service=wfs&version=2.0.0&request=GetCapabilities",
+        "url_type": null
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "Gesch\u00fctzte Landschaftsbestandteile GLB",
+        "id": "a2be6444-ba86-44ee-8235-61773afe7032",
+        "name": "Gesch\u00fctzte Landschaftsbestandteile GLB",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Kiel",
+        "id": "ba8fbb81-0269-4d5c-8186-79ddbeaea5f2",
+        "name": "Kiel",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "LB",
+        "id": "6dda2e2c-f666-4f51-9362-05918c7aae13",
+        "name": "LB",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Landschaftsschutz",
+        "id": "a9acb4be-8e1a-4f52-bd30-990309b4dcb7",
+        "name": "Landschaftsschutz",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Naturschutz",
+        "id": "78c88c95-365b-4a93-b968-a155893a3fd8",
+        "name": "Naturschutz",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Schleswig-Holstein",
+        "id": "d09d6542-e236-482e-ae42-7a3376193711",
+        "name": "Schleswig-Holstein",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Schutzgebiet",
+        "id": "a26b22f2-3e81-4d99-8fbc-6e4e2698b91c",
+        "name": "Schutzgebiet",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Schutzgebiete",
+        "id": "f1fb6def-caa7-4fa5-bce9-ffa371ac687f",
+        "name": "Schutzgebiete",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "opendata",
+        "id": "2f8dcc54-f219-400e-bd83-c0603f275037",
+        "name": "opendata",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  },
+  {
+    "author": null,
+    "author_email": null,
+    "creator_user_id": "365772f8-13ae-4838-8459-d5e9ce7269f2",
+    "id": "da5eb412-56e1-4c12-b49b-493b62274fce",
+    "isopen": true,
+    "language": "[\"http://publications.europa.eu/resource/authority/language/DEU\"]",
+    "license_id": "http://dcat-ap.de/def/licenses/cc-by/4.0",
+    "license_title": "Creative Commons Namensnennung \u2013 4.0 International (CC BY 4.0)",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2023-11-01T12:00:10.713183",
+    "metadata_modified": "2023-12-04T08:38:37.984907",
+    "name": "bildbasiertes-digitales-oberflachenmodell-bdom",
+    "notes": "Das bildbasierte Digitale Oberfl\u00e4chenmodell (bDOM) bildet die Oberfl\u00e4che der Erde inklusive der auf ihr befindlichen Objekte wie Bauwerke und Vegetation mit einer Gitterweite von 20 cm ab. Das Oberfl\u00e4chenmodell enth\u00e4lt auch bewegliche Objekte, wie zum Beispiel Autos oder Fl\u00fcgel von Windr\u00e4dern. Das bDOM wird mit einer Aufl\u00f6sung von 20 cm abgegeben. Die H\u00f6hengenauigkeit betr\u00e4gt \u00b1 0,5 m.",
+    "num_resources": 1,
+    "num_tags": 6,
+    "organization": {
+      "id": "01115337-01d1-4e96-aa8e-9749524889c7",
+      "name": "lvermgeo",
+      "title": "Landesamt f\u00fcr Vermessung und Geoinformation Schleswig-Holstein",
+      "type": "organization",
+      "description": "",
+      "image_url": "https://opendata.zitsh.de/images/lvermgeo.png",
+      "created": "2021-01-21T15:00:30.922092",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "01115337-01d1-4e96-aa8e-9749524889c7",
+    "private": false,
+    "state": "active",
+    "title": "Bildbasiertes Digitales Oberfl\u00e4chenmodell (bDOM)",
+    "type": "dataset",
+    "url": null,
+    "version": null,
+    "extras": [
+      {
+        "key": "alternate_identifier",
+        "value": "[\"712bf80c-f673-477d-a27a-68438c79ead2\"]"
+      },
+      {
+        "key": "conforms_to",
+        "value": "[\"http://www.opengis.net/def/crs/EPSG/0/25832\"]"
+      },
+      {
+        "key": "contact_email",
+        "value": "Vertrieb.Geobasisdaten@LVermGeo.LandSH.de"
+      },
+      {
+        "key": "contact_name",
+        "value": "Landesamt f\u00fcr Vermessung und Geoinformation Schleswig-Holstein"
+      },
+      {
+        "key": "contributorID",
+        "value": "[\"https://gdi-sh.de\"]"
+      },
+      {
+        "key": "dcat_type",
+        "value": "http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series"
+      },
+      {
+        "key": "documentation",
+        "value": "[\"https://www.schleswig-holstein.de/DE/Landesregierung/LVERMGEOSH/Service/serviceGeobasisdaten/geodatenService_Geobasisdaten_DGM.html\"]"
+      },
+      {
+        "key": "frequency",
+        "value": "http://publications.europa.eu/resource/authority/frequency/CONT"
+      },
+      {
+        "key": "guid",
+        "value": "http://registry.gdi-de.org/id/de.sh/712bf80c-f673-477d-a27a-68438c79ead2"
+      },
+      {
+        "key": "identifier",
+        "value": "712bf80c-f673-477d-a27a-68438c79ead2"
+      },
+      {
+        "key": "issued",
+        "value": "2022-11-30T00:00:00"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": "\u00a9 GeoBasis-DE/LVermGeo SH/CC BY 4.0"
+      },
+      {
+        "key": "maintainer_city",
+        "value": "Kiel"
+      },
+      {
+        "key": "maintainer_country",
+        "value": "Deutschland"
+      },
+      {
+        "key": "maintainer_street",
+        "value": "Mercatorstra\u00dfe 1"
+      },
+      {
+        "key": "maintainer_tel",
+        "value": "+49-431-383-2020"
+      },
+      {
+        "key": "maintainer_url",
+        "value": "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/LVERMGEOSH/Service/serviceGeobasisdaten/geodatenService_Geobasisdaten_mehrLesen.html"
+      },
+      {
+        "key": "maintainer_zip",
+        "value": "24106"
+      },
+      {
+        "key": "metadata_harvested_portal",
+        "value": "sh-mis"
+      },
+      {
+        "key": "modified",
+        "value": "2023-11-21"
+      },
+      {
+        "key": "publisher_email",
+        "value": "mailto:Vertrieb.Geobasisdaten@LVermGeo.LandSH.de"
+      },
+      {
+        "key": "publisher_name",
+        "value": "Landesamt f\u00fcr Vermessung und Geoinformation Schleswig-Holstein"
+      },
+      {
+        "key": "publisher_url",
+        "value": "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/LVERMGEOSH/Service/serviceGeobasisdaten/geodatenService_Geobasisdaten_mehrLesen.html"
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[7.85, 55.064], [11.327, 55.064], [11.327, 53.355], [7.85, 53.355], [7.85, 55.064]]]}"
+      },
+      {
+        "key": "temporal_start",
+        "value": "2022-11-30T00:00:00"
+      },
+      {
+        "key": "theme",
+        "value": "[\"http://publications.europa.eu/resource/authority/data-theme/TECH\", \"http://publications.europa.eu/resource/authority/data-theme/GOVE\", \"http://publications.europa.eu/resource/authority/data-theme/AGRI\", \"http://publications.europa.eu/resource/authority/data-theme/REGI\", \"http://publications.europa.eu/resource/authority/data-theme/ENVI\"]"
+      },
+      {
+        "key": "uri",
+        "value": "http://registry.gdi-de.org/id/de.sh/712bf80c-f673-477d-a27a-68438c79ead2"
+      },
+      {
+        "key": "harvest_object_id",
+        "value": "f4bb0898-b134-4515-9e6d-1c163f0ae7b5"
+      },
+      {
+        "key": "harvest_source_id",
+        "value": "38869aff-2079-4790-bd0e-70714637ab7c"
+      },
+      {
+        "key": "harvest_source_title",
+        "value": "SH-MIS"
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+        "id": "agri",
+        "image_display_url": "",
+        "name": "agri",
+        "title": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel"
+      },
+      {
+        "description": "",
+        "display_name": "Regierung und \u00f6ffentlicher Sektor",
+        "id": "gove",
+        "image_display_url": "",
+        "name": "gove",
+        "title": "Regierung und \u00f6ffentlicher Sektor"
+      },
+      {
+        "description": "",
+        "display_name": "Regionen und St\u00e4dte",
+        "id": "regi",
+        "image_display_url": "",
+        "name": "regi",
+        "title": "Regionen und St\u00e4dte"
+      },
+      {
+        "description": "",
+        "display_name": "Umwelt",
+        "id": "envi",
+        "image_display_url": "",
+        "name": "envi",
+        "title": "Umwelt"
+      },
+      {
+        "description": "",
+        "display_name": "Wissenschaft und Technologie",
+        "id": "tech",
+        "image_display_url": "",
+        "name": "tech",
+        "title": "Wissenschaft und Technologie"
+      }
+    ],
+    "resources": [
+      {
+        "access_url": "https://geodaten.schleswig-holstein.de/gaialight-sh/_apps/dladownload/dl-bdom.html",
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": null,
+          "cache_filepath": "/var/lib/ckan/default/archive/7c/7c9a6ea8-fb8d-429f-b9bb-3da12f1488f0/dl-bdom.html",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/7c/7c9a6ea8-fb8d-429f-b9bb-3da12f1488f0/dl-bdom.html",
+          "size": 7743,
+          "mimetype": "text/html",
+          "hash": "250135c7b686356df543bbd1d31066e1382582fb",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-04T09:38:40.708258",
+          "failure_count": 0,
+          "created": "2023-11-01T13:15:40.293818",
+          "updated": "2023-12-04T09:38:40.708258",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-11-01T12:00:10.727673",
+        "description": null,
+        "distribution_ref": "https://geodaten.schleswig-holstein.de/gaialight-sh/_apps/dladownload/dl-bdom.html",
+        "download_url": "https://geodaten.schleswig-holstein.de/gaialight-sh/_apps/dladownload/dl-bdom.html",
+        "format": "HTML",
+        "hash": "",
+        "id": "7c9a6ea8-fb8d-429f-b9bb-3da12f1488f0",
+        "last_modified": null,
+        "license": "http://dcat-ap.de/def/licenses/cc-by/4.0",
+        "licenseAttributionByText": "\u00a9 GeoBasis-DE/LVermGeo SH/CC BY 4.0",
+        "metadata_modified": "2023-12-04T08:38:37.997074",
+        "mimetype": "text/html",
+        "mimetype_inner": null,
+        "name": "TIFF Download",
+        "package_id": "da5eb412-56e1-4c12-b49b-493b62274fce",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-04T09:38:40.708258",
+          "openness_score": 1,
+          "openness_score_reason": "Content of file appeared to be format \"HTML\" which receives openness score: 1.",
+          "format": "HTML",
+          "created": "2023-11-01T13:15:40.954216",
+          "updated": "2023-12-04T09:38:41.491630"
+        },
+        "resource_type": null,
+        "size": null,
+        "state": "active",
+        "uri": "https://geodaten.schleswig-holstein.de/gaialight-sh/_apps/dladownload/dl-bdom.html",
+        "url": "https://geodaten.schleswig-holstein.de/gaialight-sh/_apps/dladownload/dl-bdom.html",
+        "url_type": null
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "AdVMIS",
+        "id": "423957d9-795c-4c1a-b9a4-3792c7653229",
+        "name": "AdVMIS",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Geobasisdaten",
+        "id": "516439fb-01fe-45c8-b300-d37a71ce2231",
+        "name": "Geobasisdaten",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Oberfl\u00e4chenmodell",
+        "id": "d16ea13b-9965-4ea4-862c-2d45568ceab4",
+        "name": "Oberfl\u00e4chenmodell",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "bDOM",
+        "id": "6595567c-3c8e-4723-896b-2586bebf9942",
+        "name": "bDOM",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "bildbasiert",
+        "id": "5ae4cd7f-5dd5-4743-9757-9e0d47f1991e",
+        "name": "bildbasiert",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "opendata",
+        "id": "2f8dcc54-f219-400e-bd83-c0603f275037",
+        "name": "opendata",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  }
+]

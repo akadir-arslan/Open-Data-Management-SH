@@ -1,0 +1,122 @@
+{
+  "approval_status": "approved",
+  "created": "2021-03-24T06:25:07.605107",
+  "description": "Die Kunsthalle ist Museum mit eigener Sammlung und Ausstellungshalle sowie ein Universit\u00e4tsinstitut der Chrisitan-Albrechts-Universit\u00e4t zu Kiel",
+  "display_name": "Kunsthalle Kiel",
+  "id": "24b059dd-75f1-4a49-8327-9034b31df62f",
+  "image_display_url": "https://opendata.schleswig-holstein.de/uploads/group/2021-03-26-132110.476674kunsthalle.png",
+  "image_url": "2021-03-26-132110.476674kunsthalle.png",
+  "is_organization": true,
+  "name": "kunsthalle-kiel",
+  "num_followers": 0,
+  "package_count": 2,
+  "state": "active",
+  "title": "Kunsthalle Kiel",
+  "type": "organization",
+  "extras": [
+    {
+      "group_id": "24b059dd-75f1-4a49-8327-9034b31df62f",
+      "id": "4adcea74-c747-476f-9d0d-bb3e1ab4961d",
+      "key": "gnd",
+      "state": "active",
+      "value": "https://d-nb.info/gnd/8513-3"
+    },
+    {
+      "group_id": "24b059dd-75f1-4a49-8327-9034b31df62f",
+      "id": "808dcdb9-f510-4548-aaa3-a2c0ad2c9ed5",
+      "key": "location",
+      "state": "active",
+      "value": "24105 Kiel"
+    },
+    {
+      "group_id": "24b059dd-75f1-4a49-8327-9034b31df62f",
+      "id": "7c0de4d2-5d1e-4fd3-9b20-cb9488b703aa",
+      "key": "mail",
+      "state": "active",
+      "value": ""
+    },
+    {
+      "group_id": "24b059dd-75f1-4a49-8327-9034b31df62f",
+      "id": "848452c5-da03-4e7a-bf13-d90f9254129f",
+      "key": "person",
+      "state": "active",
+      "value": ""
+    },
+    {
+      "group_id": "24b059dd-75f1-4a49-8327-9034b31df62f",
+      "id": "9e72d8b7-e7cc-49a1-9d19-1f980e03f070",
+      "key": "street",
+      "state": "active",
+      "value": "D\u00fcsternbrooker Weg 1"
+    },
+    {
+      "group_id": "24b059dd-75f1-4a49-8327-9034b31df62f",
+      "id": "637aadf1-3aee-4d92-aafb-534aee8ad435",
+      "key": "telephone",
+      "state": "active",
+      "value": ""
+    },
+    {
+      "group_id": "24b059dd-75f1-4a49-8327-9034b31df62f",
+      "id": "77e5524a-9ceb-4028-8d26-1f56cad3e480",
+      "key": "web",
+      "state": "active",
+      "value": "https://www.kunsthalle-kiel.de/"
+    }
+  ],
+  "users": [
+    {
+      "about": null,
+      "activity_streams_email_notifications": false,
+      "capacity": "admin",
+      "created": "2021-03-18T14:47:49.618891",
+      "display_name": "Coding da Vinci 2021",
+      "email_hash": "e47daa080b94c2f5d04299ad889e3017",
+      "fullname": "Coding da Vinci 2021",
+      "id": "74f9876c-3ea2-4462-a2f5-2cef2be2ef77",
+      "image_display_url": null,
+      "image_url": null,
+      "last_active": null,
+      "name": "cdv2021",
+      "number_created_packages": 0,
+      "state": "active",
+      "sysadmin": false
+    },
+    {
+      "about": "Die Kunsthalle ist Museum mit eigener Sammlung und Ausstellungshalle sowie ein Universit\u00e4tsinstitut der Christian-Albrechts-Universit\u00e4t zu Kiel.",
+      "activity_streams_email_notifications": false,
+      "capacity": "admin",
+      "created": "2021-03-24T06:25:44.491492",
+      "display_name": "Kunsthalle zu Kiel",
+      "email_hash": "70b3899938b84701115f1d831f78b9df",
+      "fullname": "Kunsthalle zu Kiel",
+      "id": "c924a1f9-595f-4065-ac35-b8486bea66d4",
+      "image_display_url": null,
+      "image_url": null,
+      "last_active": null,
+      "name": "kunsthalle_zu_kiel",
+      "number_created_packages": 0,
+      "state": "active",
+      "sysadmin": false
+    },
+    {
+      "about": "",
+      "activity_streams_email_notifications": false,
+      "capacity": "admin",
+      "created": "2020-01-23T12:47:51.154805",
+      "display_name": "Leitstelle",
+      "email_hash": "ad5ae1852148dd685bcf4f427308b46b",
+      "fullname": "Leitstelle",
+      "id": "7df583a3-350e-47ef-8738-3bbb68bdb954",
+      "image_display_url": null,
+      "image_url": null,
+      "last_active": "2023-12-06T08:27:16.706988",
+      "name": "leitstelle",
+      "number_created_packages": 5134,
+      "state": "active",
+      "sysadmin": true
+    }
+  ],
+  "tags": [],
+  "groups": []
+}
